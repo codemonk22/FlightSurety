@@ -174,7 +174,8 @@ eth_sendTransaction
 
 ![Activity diagram](/images/WholeScreen01.png)
 
-
+![Activity diagram](/images/dapp_config.png)
+![Activity diagram](/images/server_config.png)
 
 
 
