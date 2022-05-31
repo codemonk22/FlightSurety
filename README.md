@@ -1,7 +1,7 @@
 # FlightSurety
 
 
-`FlightSurety is an oracle blockchain dapp for flight delay insurance for passengers.`
+## FlightSurety is an oracle blockchain dapp for flight delay insurance for passengers.
 
 ## Install
 
