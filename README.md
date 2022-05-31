@@ -102,6 +102,7 @@ To build dapp for prod:
 
 Deploy the contents of the ./dapp folder
 
+![Activity diagram](/images/dappFld.png)
 
 ### Ganache Transcation Details
 
