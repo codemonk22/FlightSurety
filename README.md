@@ -1,5 +1,9 @@
 # FlightSurety
 
+
+`FlightSurety is an oracle blockchain dapp for flight delay insurance for passengers.`
+
+
 ```
 ┌──(blockchain05㉿bcdev05)-[~/workspace/FlightSurety]
 └─$ ganache-cli --p 8545 --mnemonic "candy maple velvet cake sugar cream honey rich smooth crumble sweet treat"
