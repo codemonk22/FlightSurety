@@ -17,18 +17,18 @@
 - **Babel-preset-stage-0: 6.24.1** used to helps write the code in the latest version of JavaScript
 - **Bignumber.js: 8.0.2** this library is used for arbitrary-precision decimal and non-decimal arithmetic
 - **CSS-loader: ^1.0.0** interprets @import and url() like import/require() and will resolve them.
-- **Express: 4.16.4**
-- **File-loader: 3.0.1**
-- **HTML-loader: 0.5.5**
-- **HTML-webpack-plugin: ^3.2.0**
-- **Start-server-webpack-plugin: 2.2.5**
-- **Style-loader: ^0.23.1**
-- **Superstatic: 6.0.3**
-- **Truffle-hdwallet-provider: ^1.0.17**
-- **Webpack: ^4.35.2**
-- **Webpack-cli: ^3.3.6**
-- **Webpack-dev-server: 3.7.2**
-- **Webpack-node-externals: 1.7.2**
+- **Express: 4.16.4** is used to provide small, robust tooling for HTTP servers
+- **File-loader: 3.0.1** is used to resolves import/require() on a file into a url and emits the file into the output directory
+- **HTML-loader: 0.5.5** is used to Exports HTML as string
+- **HTML-webpack-plugin: ^3.2.0** used to simplifies creation of HTML files to serve your webpack bundles
+- **Start-server-webpack-plugin: 2.2.5** used to automatically start your server once Webpack's build completes
+- **Style-loader: ^0.23.1** used to inject CSS into the DOM.
+- **Superstatic: 6.0.3** used to specify the directory, port and hostname of the server
+- **Truffle-hdwallet-provider: ^1.0.17** used to the address of the first address that's generated from the mnemonic
+- **Webpack: ^4.35.2** the main purpose is to bundle JavaScript files for usage in a browser
+- **Webpack-cli: ^3.3.6** used to provide the interface of options webpack uses in its configuration file
+- **Webpack-dev-server: 3.7.2** used for development server that provides live reloading
+- **Webpack-node-externals: 1.7.2** used for allowing to define externals
 
 ``` 
 ```
