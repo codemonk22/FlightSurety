@@ -1,7 +1,8 @@
 # FlightSurety - Oracle Blockchain DApp
 
-
 ## FlightSurety is an oracle blockchain dapp for flight delay insurance for passengers.
+
+![Activity diagram](/images/WebSite-01.png)
 
 ### STEP 01 - Install
 
@@ -11,6 +12,70 @@ To install, download or clone the repo, then:
 
 `npm install`
 `truffle compile`
+
+
+
+### STEP 02 - Develop Client
+
+
+To run truffle tests:
+
+`truffle test ./test/flightSurety.js`
+`truffle test ./test/oracles.js`
+
+![Activity diagram](/images/WholeScreen01.png)
+
+
+
+
+To use the dapp:
+
+`truffle migrate`
+
+![Activity diagram](/images/truff-mig01.png)
+![Activity diagram](/images/truff-mig02.png)
+
+`npm run dapp`
+
+![Activity diagram](/images/run_dapp01.png)
+
+To view dapp:
+
+`http://localhost:8000`
+
+![Activity diagram](/images/WebSite-01.png)
+
+
+### STEP - 03 Develop Server
+
+`npm run server`
+
+![Activity diagram](/images/npm_run_ser01.png)
+![Activity diagram](/images/npm_run_ser02.png)
+
+`truffle test ./test/oracles.js`
+
+![Activity diagram](/images/truff_oracle.png)
+
+
+ ` dapp and server config file with ganache account details `
+ 
+![Activity diagram](/images/dapp_config.png)
+![Activity diagram](/images/server_config.png)
+
+
+### STEP - 04 Deploy
+
+To build dapp for prod:
+`npm run dapp:prod`
+
+![Activity diagram](/images/dapp-prod-01.png)
+![Activity diagram](/images/dapp-prod-02.png)
+
+Deploy the contents of the ./dapp folder
+
+
+### Ganache Transcation Details
 
 ```
 ┌──(blockchain05㉿bcdev05)-[~/workspace/FlightSurety]
@@ -183,65 +248,6 @@ eth_sendTransaction
 
 ```
 
-
-### STEP 02 - Develop Client
-
-
-To run truffle tests:
-
-`truffle test ./test/flightSurety.js`
-`truffle test ./test/oracles.js`
-
-![Activity diagram](/images/WholeScreen01.png)
-
-
-
-
-To use the dapp:
-
-`truffle migrate`
-
-![Activity diagram](/images/truff-mig01.png)
-![Activity diagram](/images/truff-mig02.png)
-
-`npm run dapp`
-
-![Activity diagram](/images/run_dapp01.png)
-
-To view dapp:
-
-`http://localhost:8000`
-
-![Activity diagram](/images/WebSite-01.png)
-
-
-### STEP - 03 Develop Server
-
-`npm run server`
-
-![Activity diagram](/images/npm_run_ser01.png)
-![Activity diagram](/images/npm_run_ser02.png)
-
-`truffle test ./test/oracles.js`
-
-![Activity diagram](/images/truff_oracle.png)
-
-
- ` dapp and server config file with ganache account details `
- 
-![Activity diagram](/images/dapp_config.png)
-![Activity diagram](/images/server_config.png)
-
-
-### STEP - 04 Deploy
-
-To build dapp for prod:
-`npm run dapp:prod`
-
-![Activity diagram](/images/dapp-prod-01.png)
-![Activity diagram](/images/dapp-prod-02.png)
-
-Deploy the contents of the ./dapp folder
 
 ## Usefull Resources
 
