@@ -12,12 +12,6 @@ To install, download or clone the repo, then:
 `npm install`
 `truffle compile`
 
-
-## Develop Server
-
-`npm run server`
-`truffle test ./test/oracles.js`
-
 ## Deploy
 
 To build dapp for prod:
@@ -210,8 +204,6 @@ To run truffle tests:
 
 ![Activity diagram](/images/WholeScreen01.png)
 
-![Activity diagram](/images/dapp_config.png)
-![Activity diagram](/images/server_config.png)
 
 
 
@@ -233,11 +225,23 @@ To view dapp:
 ![Activity diagram](/images/WebSite-01.png)
 
 
+## Develop Server
+
+`npm run server`
+
 ![Activity diagram](/images/npm_run_ser01.png)
 ![Activity diagram](/images/npm_run_ser02.png)
 
+`truffle test ./test/oracles.js`
 
 ![Activity diagram](/images/truff_oracle.png)
+
+
+ ` dapp and server config file with ganache account details `
+ 
+![Activity diagram](/images/dapp_config.png)
+![Activity diagram](/images/server_config.png)
+
 
 ![Activity diagram](/images/dapp-prod-01.png)
 ![Activity diagram](/images/dapp-prod-02.png)
