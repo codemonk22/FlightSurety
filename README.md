@@ -25,3 +25,4 @@
 
 
 ![Activity diagram](/images/truff_oracle.png)
+
