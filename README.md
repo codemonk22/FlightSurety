@@ -10,3 +10,7 @@
 
 ![Activity diagram](/images/dapp-prod-01.png)
 ![Activity diagram](/images/dapp-prod-02.png)
+
+
+![Activity diagram](/images/truff-mig01.png)
+![Activity diagram](/images/truff-mig02.png)
