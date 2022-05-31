@@ -10,26 +10,25 @@
 - **OpenZeppelin v2.1.2:** minimizes risk by using battle-tested libraries of smart contracts.
 - **Node v12.16.2:** used for easily building fast and scalable network applications - integral for deploying UI to the browswer.
 - **Web3.js v1.2.1:** used to allow the DApp to interact with a local/remote Ethereum node with an HTTP, HTTPS, or IPC connection.
-- **babel-core: 6.26.3** used is to helps write code in the latest version of JavaScript
-- **babel-loader: 8.0.5**
-- **babel-polyfill: 6.26.0**
-- **babel-preset-es2015: 6.24.1**
-- **babel-preset-stage-0: 6.24.1**
-- **bignumber.js: 8.0.2**
-- **css-loader: ^1.0.0**
-- **express: 4.16.4**
-- **file-loader: 3.0.1**
-- **html-loader: 0.5.5**
-- **html-webpack-plugin: ^3.2.0**
-- **openzeppelin-solidity: ^1.12.0**
-- **start-server-webpack-plugin: 2.2.5**
-- **style-loader: ^0.23.1**
-- **superstatic: 6.0.3**
-- **truffle-hdwallet-provider: ^1.0.17**
-- **webpack: ^4.35.2**
-- **webpack-cli: ^3.3.6**
-- **webpack-dev-server: 3.7.2**
-- **webpack-node-externals: 1.7.2**
+- **Babel-core: 6.26.3** used to helps write the code in the latest version of JavaScript
+- **Babel-loader: 8.0.5** used to helps write the code in the latest version of JavaScript
+- **Babel-polyfill: 6.26.0** used to helps write the code in the latest version of JavaScript
+- **Babel-preset-es2015: 6.24.1** used to helps write the code in the latest version of JavaScript
+- **Babel-preset-stage-0: 6.24.1** used to helps write the code in the latest version of JavaScript
+- **Bignumber.js: 8.0.2** this library is used for arbitrary-precision decimal and non-decimal arithmetic
+- **CSS-loader: ^1.0.0** interprets @import and url() like import/require() and will resolve them.
+- **Express: 4.16.4**
+- **File-loader: 3.0.1**
+- **HTML-loader: 0.5.5**
+- **HTML-webpack-plugin: ^3.2.0**
+- **Start-server-webpack-plugin: 2.2.5**
+- **Style-loader: ^0.23.1**
+- **Superstatic: 6.0.3**
+- **Truffle-hdwallet-provider: ^1.0.17**
+- **Webpack: ^4.35.2**
+- **Webpack-cli: ^3.3.6**
+- **Webpack-dev-server: 3.7.2**
+- **Webpack-node-externals: 1.7.2**
 
 ``` 
 ```
