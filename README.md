@@ -3,7 +3,7 @@
 
 ## FlightSurety is an oracle blockchain dapp for flight delay insurance for passengers.
 
-## Install
+### Install
 
 This repository contains Smart Contract code in Solidity (using Truffle), tests (also using Truffle), dApp scaffolding (using HTML, CSS and JS) and server app scaffolding.
 
