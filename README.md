@@ -1,4 +1,4 @@
-# FlightSurety
+# FlightSurety - Oracle Blockchain DApp
 
 
 ## FlightSurety is an oracle blockchain dapp for flight delay insurance for passengers.
@@ -11,7 +11,6 @@ To install, download or clone the repo, then:
 
 `npm install`
 `truffle compile`
-
 
 ```
 ┌──(blockchain05㉿bcdev05)-[~/workspace/FlightSurety]
@@ -182,19 +181,16 @@ eth_sendTransaction
   Block number: 6
   Block time: Mon May 30 2022 17:17:06 GMT-0500 (Central Daylight Time)
 
-
 ```
+
+
 ## Develop Client
+
 
 To run truffle tests:
 
 `truffle test ./test/flightSurety.js`
 `truffle test ./test/oracles.js`
-
-
-
-
-
 
 ![Activity diagram](/images/WholeScreen01.png)
 
@@ -246,7 +242,6 @@ To build dapp for prod:
 ![Activity diagram](/images/dapp-prod-02.png)
 
 Deploy the contents of the ./dapp folder
-
 
 ## Resources
 
