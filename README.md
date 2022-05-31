@@ -14,3 +14,6 @@
 
 ![Activity diagram](/images/truff-mig01.png)
 ![Activity diagram](/images/truff-mig02.png)
+
+
+![Activity diagram](/images/run_dapp01.png)
