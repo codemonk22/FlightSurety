@@ -12,12 +12,6 @@ To install, download or clone the repo, then:
 `npm install`
 `truffle compile`
 
-## Deploy
-
-To build dapp for prod:
-`npm run dapp:prod`
-
-Deploy the contents of the ./dapp folder
 
 ```
 ┌──(blockchain05㉿bcdev05)-[~/workspace/FlightSurety]
@@ -243,10 +237,15 @@ To view dapp:
 ![Activity diagram](/images/server_config.png)
 
 
+## Deploy
+
+To build dapp for prod:
+`npm run dapp:prod`
+
 ![Activity diagram](/images/dapp-prod-01.png)
 ![Activity diagram](/images/dapp-prod-02.png)
 
-
+Deploy the contents of the ./dapp folder
 
 
 ## Resources
