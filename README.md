@@ -4,6 +4,35 @@
 
 ![Activity diagram](/images/WebSite-01.png)
 
+## Programming Libraries Used:
+- **Truffle v5.1.27-nodeLTS.0 (core: 5.1.13):** used in project to deploy, test, and deploy DApp's smart contracts.
+- **Solidity v0.5.17 (solc-js):** an object-oriented, high-level langauge for writing, designing, and implementing smart contracts.
+- **OpenZeppelin v2.1.2:** minimizes risk by using battle-tested libraries of smart contracts.
+- **Node v12.16.2:** used for easily building fast and scalable network applications - integral for deploying UI to the browswer.
+- **Web3.js v1.2.1:** used to allow the DApp to interact with a local/remote Ethereum node with an HTTP, HTTPS, or IPC connection.
+- **babel-core: 6.26.3** used is to helps write code in the latest version of JavaScript
+- **babel-loader: 8.0.5**
+- **babel-polyfill: 6.26.0**
+- **babel-preset-es2015: 6.24.1**
+- **babel-preset-stage-0: 6.24.1**
+- **bignumber.js: 8.0.2**
+- **css-loader: ^1.0.0**
+- **express: 4.16.4**
+- **file-loader: 3.0.1**
+- **html-loader: 0.5.5**
+- **html-webpack-plugin: ^3.2.0**
+- **openzeppelin-solidity: ^1.12.0**
+- **start-server-webpack-plugin: 2.2.5**
+- **style-loader: ^0.23.1**
+- **superstatic: 6.0.3**
+- **truffle-hdwallet-provider: ^1.0.17**
+- **webpack: ^4.35.2**
+- **webpack-cli: ^3.3.6**
+- **webpack-dev-server: 3.7.2**
+- **webpack-node-externals: 1.7.2**
+
+``` 
+```
 ### STEP 01 - Install
 
 This repository contains Smart Contract code in Solidity (using Truffle), tests (also using Truffle), dApp scaffolding (using HTML, CSS and JS) and server app scaffolding.
@@ -13,10 +42,9 @@ To install, download or clone the repo, then:
 `npm install`
 `truffle compile`
 
-
-
+``` 
+```
 ### STEP 02 - Develop Client
-
 
 To run truffle tests:
 
@@ -24,8 +52,6 @@ To run truffle tests:
 `truffle test ./test/oracles.js`
 
 ![Activity diagram](/images/WholeScreen01.png)
-
-
 
 
 To use the dapp:
@@ -45,7 +71,8 @@ To view dapp:
 
 ![Activity diagram](/images/WebSite-01.png)
 
-
+``` 
+```
 ### STEP - 03 Develop Server
 
 `npm run server`
@@ -63,7 +90,8 @@ To view dapp:
 ![Activity diagram](/images/dapp_config.png)
 ![Activity diagram](/images/server_config.png)
 
-
+``` 
+```
 ### STEP - 04 Deploy
 
 To build dapp for prod:
